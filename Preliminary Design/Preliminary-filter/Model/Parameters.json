@@ -1,0 +1,35 @@
+{
+    "parameters": [
+        {
+            "expr": "60",
+            "name": "lsub",
+            "value": "60"
+        },
+        {
+            "expr": "30",
+            "name": "wsub",
+            "value": "30"
+        },
+        {
+            "expr": "1.52",
+            "name": "hsub",
+            "value": "1.52"
+        },
+        {
+            "expr": "0.05",
+            "name": "t",
+            "value": "0.05"
+        },
+        {
+            "expr": "10",
+            "name": "l1",
+            "value": "10"
+        },
+        {
+            "expr": "3",
+            "name": "w1",
+            "value": "3"
+        }
+    ],
+    "version": 1
+}

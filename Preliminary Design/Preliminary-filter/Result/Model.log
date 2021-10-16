@@ -1,0 +1,138 @@
+01/May/2021 15:46:26  In order to get an optimal performance, hyperthreading is ignored for parallel
+                      computations.
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:26  The length ratio between the shortest and the longest model edges is 1:1200.
+                      Short model edges can be highlighted via Mesh:Mesh Control->Check Mesh->Check
+                      Model Edge Length.... (It may be advantageous to model the metallizations as
+                      infinitely thin sheets.) More...
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:32  *** Warning ***
+                      
+                      This software is licensed for personal and educational purposes only.
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:33  *** Warning ***
+                      
+01/May/2021 15:46:33  The mesh adaptation has been deactivated. It is strongly recommended to enable the mesh adaptation for the tetrahedral 
+                      mesh unless the problem is very large.
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:33    Mesh time                :	6 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:35  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:35  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: electric
+                        Xmax: electric
+                      
+                        Ymin: electric
+                        Ymax: electric
+                      
+                        Zmin: electric
+                        Zmax: electric
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:35  Order settings: 
+                      
+                        Solver order   : 2nd (constant)
+                        Curved elements: up to order 3 (automatic)
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:35  
+                      ================================================================================
+                      Frequency Domain Solver calculation cycle started
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:35  Solver started at: 03:46 PM Saturday, 01. May 2021 (India Standard Time)
+                      
+                        Module:  Frequency Domain: S-Parameter (MOR) (Win 64)
+                        Version: 2020.4 Release from 2020-03-20 (change 767647)
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:35  Using electric shielding for ports 1, 2.
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:35  Port 1 evaluated using broadband port mode solver.
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:41  Port 2 evaluated using broadband port mode solver.
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:45    ----------------------------------------------------------------------------
+                        Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+                        1      1      QTEM        290           241           44.7          ---
+                        ----------------------------------------------------------------------------
+                      
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:45    ----------------------------------------------------------------------------
+                        Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+                        2      1      QTEM        307           238           45.3          ---
+                        ----------------------------------------------------------------------------
+                      
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:48  Broadband Frequency Sweep
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:48  Calculating reduced order model.
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:48  Step		Residual
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:48  0		1.000000e+00
+01/May/2021 15:46:49  5		6.314254e-02
+01/May/2021 15:46:50  10		2.167308e-03
+01/May/2021 15:46:50  12		2.350597e-05
+01/May/2021 15:46:54    
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:54  Start post-processing
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:54  
+                      
+                      Solver Statistics:
+                      
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        Solver start        16976                         1883444      1883332      
+                        Solver run total    95452                         1881580      1842004      
+                      
+                        Computer name       DESKTOP-IOQ0FSQ
+                        ----------------------------------------------------------------------------
+                      
+                        Mesh generation time     :	6 s
+                        Port reduced order model :	10 s
+                        Solver time              :	19 s
+                      
+                        Total Solver Time        :	25 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:55  Running postprocessing.
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:59  Postprocessing finished.
+                      
+                      ------------------------------------------------------------------------------
+01/May/2021 15:46:59  Creating parametric 1D results for Run ID 1
+                      
+                      ------------------------------------------------------------------------------

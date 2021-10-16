@@ -1,0 +1,19 @@
+FeatureKeywords:string:modeler:load:fastloading, meshloading:problem_class_only, modeler:model:anchorpoints, DELETERESULTS:M0P0, mesh::background::boolean, mesh:workflow:nru, mesh:workflow:boolean, mesh:workflow:boolean:advanced, mesh::attributes:rstepw, mesh:lib:blsurf, solver:hf:fd:task:1, monitor:resultfilemap:load, la:precond:pdss5, DenseInitDangerousDim, monitor:resultfilemap:save, la:direct, la:parallel_excitation:block, acceleration:cpu:1, acceleration:mpi:0, lineqssolver:setting:acceleratedrestart, lineqssolver:setting:direct, lineqssolver:setting:treecotree, mesh:tet:adaptive, solver:hf:fd, modeler:model:anchorpoints:saving, visualization:field_plot:default_engine, visualization:mesh_view:default_engine, DELETERESULTS:M000, mesh:param:assertfailed, solver:hf:fd:mor, mf::adaptive_modetracking_block, mf:nonlinear:newton, FESystemAssembling:FETool, background:normal, boundary:electric:xmax, boundary:electric:xmin, boundary:electric:ymax, boundary:electric:ymin, boundary:electric:zmax, boundary:electric:zmin, material:disp:eps, material:disp:modelnth, mesh:tet, mesh:tet:autocurvature, mesh:tet:curved, mesh:tet:curved:3, mesh:tet:matchingportmesh, solver:hf:fd:order:2, solver:hf:fd:portloss, solver:hf:fd:resonant, source:waveguide port:active, source:waveguide port:inhomogeneous, source:waveguide port:internal port, source:waveguide port:rom, units:Capacitance:F, units:Conductance:S, units:Current:A, units:Frequency:GHz, units:Inductance:H, units:Length:mm, units:Resistance:Ohm, units:Temperature:Kelvin, units:Time:ns, units:Voltage:V, solver:pp:sparameter:sensitivityanalysis, solver:pp:sparameter:basicbranch, solver:pp:sparameter:unnorm, solver:pp:sparameter:updatebalance, SMatrix:NCutoffs, meshline:hex:new, modeler:model:anchorpoints:loading, modeler:variables:rebuild, modeler:variables:fullrebuild
+LastWorkflowState:string:tetmesh:success
+solver_hf_mor/InitialFreePhysicalInMB:int:1929
+solver_hf_mor/MaxResidentSizeInMB:int:98
+solver_hf_mor/MaxResidentSizeMiB:int:78
+solver_hf_mor/MinFreePhysicalInMB:int:1886
+solver_hf_tet_fd/InitialFreePhysicalInMB:int:1965
+solver_hf_tet_fd/MaxResidentSizeInMB:int:24
+solver_hf_tet_fd/MaxResidentSizeMiB:int:358
+solver_hf_tet_fd/MinFreePhysicalInMB:int:1882
+solver_pp/InitialFreePhysicalInMB:int:1992
+solver_pp/MaxResidentSizeInMB:int:32
+solver_pp/MaxResidentSizeMiB:int:13
+solver_pp/MinFreePhysicalInMB:int:1972
+tetmesh/InitialFreePhysicalInMB:int:1943
+tetmesh/MaxResidentSizeInMB:int:62
+tetmesh/MaxResidentSizeMiB:int:43
+tetmesh/MinFreePhysicalInMB:int:1918
+---
