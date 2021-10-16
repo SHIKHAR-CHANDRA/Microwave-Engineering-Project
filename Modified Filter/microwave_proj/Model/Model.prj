@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2020.4 - Mar 20 2020 - ACIS 29.0.1 - Student Edition
+[Author]
+Shikhar
+[Mesh Cells]
+1,183
+[Mesh Type]
+Tetrahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Frequency Domain
+[Last Solver Type Abb]
+f-res-tet
+[Results]
+Frequency Domain: S-Parameter (MOR)
+[Modeler Unique ID]
+5:microwave_proj.cst?5c267b02a8656e8819b72d8af459029a?93991:numberofparameters=6:port=1>mode=1>zre=0>zim=0?port=2>mode=1>zre=0>zim=0:::hsub?l1?lsub?t?w1?wsub
+[Comment]

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SchematicTopology Version="2.5" Seed="1" Grid="25">
+    <BasePath>C:\Users\Shikhar\Desktop\microwave_proj\Model\DS</BasePath>
+    <Block Id="1" ForeignId="47526208" Class="MWSSCHEM" ImageIndex="1">
+        <Size Height="150" Width="150"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1(input)</Label>
+            </Pin>
+            <Pin Index="0" Port="1" BlockPosition="Right">
+                <Label>2(output)</Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label="input"/>
+                <Port Name="2" Label="output"/>
+            </Ports>
+        </Pins>
+        <Image FileName="../3D/Model.dib" Scale="AutoFit">
+            <Size Height="716" Width="936"/>
+        </Image>
+        <Pos X="100" Y="0"/>
+        <ToolTip>CST MICROWAVE STUDIO schematic block MWSSCHEM1</ToolTip>
+    </Block>
+</SchematicTopology>

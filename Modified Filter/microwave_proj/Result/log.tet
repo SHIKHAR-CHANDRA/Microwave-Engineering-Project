@@ -1,0 +1,201 @@
+[15:46:28] -------- TetMesher Log --------
+[15:46:28] Build: 64bit; Number: 20200320; ID: 2020.4 Release from 2020-03-20 (change 767647); Date: 2020-03-20
+[15:46:28] ACIS version: 29.0.1
+[15:46:28] SPAresabs = 9.9999999999999995e-07
+[15:46:28] SPAresnor = 1.0000000000000000e-10
+[15:46:28] - Reading information
+[15:46:28] - Reading CAD entities from file
+[15:46:28] - Building single body
+[15:46:28] Found 94 faces.
+[15:46:28] Choosing Advanced Boolean Loop...
+[15:46:28] Volume Attributes enabled
+[15:46:28] Attaching Volume Attributes
+[15:46:28] Sorted out 3 special bodies.
+[15:46:28] Processing 15 entities.
+[15:46:28] Queue Size: 1
+[15:46:28] Combining "component1:ground" and "component1:strip3" (Pair #1 out of 7)
+[15:46:28] Combining "component1:strip1_1" and "component1:strip2" (Pair #2 out of 7)
+[15:46:28] Combining "component1:strip4_4" and "component1:strip5" (Pair #3 out of 7)
+[15:46:28] Combining "component1:solid1" and "component1:solid2" (Pair #4 out of 7)
+[15:46:28] Combining "component1:solid3" and "component1:solid4" (Pair #5 out of 7)
+[15:46:28] Combining "component1:strip2_2" and "component1:strip4" (Pair #6 out of 7)
+[15:46:28] Combining "component1:strip1" and "component1:strip5_5" (Pair #7 out of 7)
+[15:46:28] Processing 8 entities.
+[15:46:29] Queue Size: 1
+[15:46:29] Combining Compound Body and Compound Body (Pair #1 out of 4)
+[15:46:29] Combining Compound Body and Compound Body (Pair #2 out of 4)
+[15:46:29] Adding Compound Body to Compound Body (Pair #3 out of 4)
+[15:46:29] Adding Compound Body to "component1:substrate" (Pair #4 out of 4)
+[15:46:29] Processing 4 entities.
+[15:46:29] Queue Size: 1
+[15:46:29] Adding Compound Body to Compound Body (Pair #1 out of 2)
+[15:46:29] Adding Compound Body to Compound Body (Pair #2 out of 2)
+[15:46:29] Processing 2 entities.
+[15:46:29] Queue Size: 1
+[15:46:29] Adding Compound Body to Compound Body (Pair #1 out of 1)
+[15:46:29] Exiting Boolean Unite Module.
+[15:46:29] Added Compound Body (ID: 118, 97, 55, 76, 193, 166, 301, 328, 274, 220, 28, 247, 355, 139, 382) to model
+[15:46:29] Added "background material" (ID: 1) to model
+[15:46:29] Added "waveguide port 1" (ID: 409) to model
+[15:46:29] Added "waveguide port 2" (ID: 419) to model
+[15:46:29] WARNING: Equivalent EIDs 23, 49 resolved to 23
+[15:46:29] WARNING: Equivalent EIDs 26, 50 resolved to 26
+[15:46:29] WARNING: Equivalent EIDs 25, 51 resolved to 25
+[15:46:29] WARNING: Equivalent EIDs 24, 52 resolved to 24
+[15:46:29] WARNING: Equivalent EIDs 27, 54 resolved to 27
+[15:46:29] WARNING: Equivalent EIDs 23, 403 resolved to 23
+[15:46:29] WARNING: Equivalent EIDs 24, 405 resolved to 24
+[15:46:29] WARNING: Equivalent EIDs 25, 406 resolved to 25
+[15:46:29] WARNING: Equivalent EIDs 27, 408 resolved to 27
+[15:46:29] - Storing model cells
+[15:46:29] - OK
+[15:46:29] Creating ModelDatabase
+[15:46:29] Problem class: High Frequency
+[15:46:29] - Mesh sizes: global mesh size near to model = 6.0000000000000000e+00
+              min requested = 6.0000000000000000e+00
+              max requested = 1.8119093460916819e+01
+[15:46:29] - OK
+[15:46:29] -- Building object info
+[15:46:29] -- OK
+[15:46:29] Temporary directory: "C:\Users\Shikhar\Desktop\microwave_proj\Temp\1-temp.tet"
+[15:46:29] CADSurf: Section started.
+[15:46:29] CADSurf: MeshGems Version: MeshGems-Core 2.8-5
+[15:46:29] CADSurf: === Begin: PreCAD-related parameters ===
+[15:46:29] CADSurf: == CADSurf Parameters == 
+[15:46:29] CADSurf: meshgems_cadsurf_set_param(css, "use_precad",  "yes")
+[15:46:29] CADSurf: Bounding box diagonal = 6.7271855184765045e+01
+[15:46:29] CADSurf: meshgems_cadsurf_set_param(css, "remove_nano_edges",  "0")
+[15:46:29] CADSurf: meshgems_cadsurf_set_param(css, "discard_input_topology",  "0")
+[15:46:29] CADSurf: meshgems_cadsurf_set_param(css, "process_3d_topology",  "0")
+[15:46:29] CADSurf: meshgems_cadsurf_set_param(css, "discard_input_2d_topology",  "0")
+[15:46:29] CADSurf: Default periodic tolerance (1e-4*diag) = 6.7271855184765049e-03
+[15:46:29] CADSurf: Minimum periodic tolerance = 1.0000000000000001e-05
+[15:46:29] CADSurf: Setting it to max( 1.0000000000000001e-05, 6.7271855184765049e-03 )
+[15:46:29] CADSurf: meshgems_cadsurf_set_param(css, "periodic_tolerance",  "0.0067271855184765049")
+[15:46:29] CADSurf: meshgems_cadsurf_set_param(css, "remove_duplicate_cad_faces",  "0")
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "remove_tiny_uv_edges",  "0")
+[15:46:30] CADSurf: === End: PreCAD-related parameters ===
+[15:46:30] CADSurf: ==
+[15:46:30] CADSurf: == CADSurf Parameters == 
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "verbose",  "3")
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "geometric_size_mode",  "local")
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "physical_size_mode",  "local")
+[15:46:30] CADSurf: 	 Max user size    = 1.8119093460916819e+01
+[15:46:30] CADSurf: 	 Global size near = 6.0000000000000000e+00
+[15:46:30] CADSurf: 	 Global size far  = 1.8119093460916822e+01
+[15:46:30] CADSurf: 	 Upper size bound = 1.8119093460916822e+01
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "max_size",  "18.119093460916822")
+[15:46:30] CADSurf: 	Calculating min. mesh size for CADSurf...
+[15:46:30] CADSurf: 	Diagonal of model + background box: 6.7271855184765045e+01
+[15:46:30] CADSurf: 	Min. mesh size by diagonal (1e-3 x diagonal): 6.7271855184765042e-02
+[15:46:30] CADSurf: 	Diagonal of model: 6.7271855184765045e+01
+[15:46:30] CADSurf: 	Min. mesh size of model: 6.0000000000000000e+00
+[15:46:30] CADSurf: 	Max. cell defined by user (near to model): 6.0000000000000000e+00
+[15:46:30] CADSurf: 	Min. cell defined by user: 0.0000000000000000e+00
+[15:46:30] CADSurf: 	Min. cell used for calculation: 5.9999999999999998e-02
+[15:46:30] CADSurf: 	Note: min. mesh size by diagonal is too large, consider using (0.01 x max. cell = 5.9999999999999998e-02)
+[15:46:30] CADSurf: Geometric refinement uses "min_size" setting.
+[15:46:30] CADSurf: CADSurf "min_size" is set to min. cell: 5.9999999999999998e-02
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "min_size",  "0.059999999999999998")
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "max_number_of_points_per_patch",  "0")
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "element_generation",  "local")
+[15:46:30] CADSurf: Setting Triangle as default element type
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "gradation",  "1.5")
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "volume_gradation",  "2")
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "patch_independent",  "0")
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "remove_tiny_edges",  "0")
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "optimise_tiny_edges",  "0")
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "tiny_edge_respect_geometry",  "1")
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "CheckWellDefined",  "8")
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "anisotropic",  "1")
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "anisotropic_ratio",  "5")
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "correct_surface_intersections",  "1")
+[15:46:30] CADSurf: meshgems_cadsurf_set_param(css, "intersection_processing_max_cost",  "15")
+[15:46:30] CADSurf: ==
+[15:46:31] CADSurf: Status: OK
+[15:46:31] CADSurf: Number of intersecting edges: 0, total edge count: 284
+[15:46:31] CADSurf: Number of intersecting faces: 0
+[15:46:31] CADSurf: - Mesh stats: N=339, E=284, T=796, Q=0
+[15:46:31] CADSurf: Testing watertightness
+[15:46:31] CADSurf: - OK
+[15:46:31] CADSurf: Time for section (s): 1.6
+[15:46:31] Labeling mesh entities
+[15:46:31] Creating volume mesh from surface mesh - begin
+[15:46:31] Volume meshing: 4 threads will be allocated to mesh 2 sub-domains.
+[15:46:31] - Submitting for meshing subdomain 1 of 2
+[15:46:31]      Name: (unknown)
+[15:46:31] - Submitting for meshing subdomain 2 of 2
+[15:46:31]      Name: (unknown)
+[15:46:31] - Number of elements for (unknown):541
+[15:46:31] - Number of elements for (unknown):642
+[15:46:31] - Volume mesh stats: Nb nodes = 318, Nb edges = 246, Nb surface elements = 596, Nb tets = 1183
+[15:46:31] DuplicateSurface: Section started.
+[15:46:31] DuplicateSurface: Time for section (s): 0.01
+[15:46:31] DuplicateSurface: Section started.
+[15:46:31] DuplicateSurface: Time for section (s): 0.012
+[15:46:31] Creating volume mesh from surface mesh - done
+[15:46:31] Using generalized mesh output routines.
+[15:46:32] Writing Bc file
+[15:46:32] Writing gex file for volume mesh
+[15:46:32] Running model geometry simplification... 
+[15:46:32] Model geometry simplification: 0 seconds
+[15:46:32] Using generalized UID topology and model geometry output
+[15:46:32] Writing topot.tet...
+[15:46:32] Done (topot.tet)
+[15:46:32] Writing moegeom.tet ...
+[15:46:32] Done (moegeom.tet) 
+[15:46:32] Mesh curving:
+[15:46:32]     available cores:   4
+[15:46:32]     number of threads: 4 (NumberOfParallelThreads setting)
+[15:46:32] Curving elements
+[15:46:32] 
+#### Feedback Report Begins ####
+----------
+Display Group: UNKNOWN [NON-GRAPHICAL] 
+Problem: Issue 1
+Item: Item 1
+Item Label: UNKNOWN
+Descriptor Label: UNKNOWN
+Description: 0 
+================================================================================
+                   MG-TETRA -- MeshGems 2.8-5 (January, 2019)
+   END OF SESSION - MG-TETRA (Copyright © 1989-2019 by Distene SAS & Inria)
+                 compiled Jan 29 2019 12:34:22 on Win7_64_VC14
+               MeshGems is a Registered Trademark of Distene SAS
+================================================================================
+       ( Distene SAS
+        Phone: +33(0)970-650-219   Fax: +33(0)169-269-033
+        EMail: <support@distene.com> )
+
+Cure: 
+Integer Data: 
+Real Data: 
+----------
+
+----------
+Display Group: UNKNOWN [NON-GRAPHICAL] 
+Problem: Issue 1
+Item: Item 2
+Item Label: UNKNOWN
+Descriptor Label: UNKNOWN
+Description: 0 
+================================================================================
+                   MG-TETRA -- MeshGems 2.8-5 (January, 2019)
+   END OF SESSION - MG-TETRA (Copyright © 1989-2019 by Distene SAS & Inria)
+                 compiled Jan 29 2019 12:34:22 on Win7_64_VC14
+               MeshGems is a Registered Trademark of Distene SAS
+================================================================================
+       ( Distene SAS
+        Phone: +33(0)970-650-219   Fax: +33(0)169-269-033
+        EMail: <support@distene.com> )
+
+Cure: 
+Integer Data: 
+Real Data: 
+Problems found during the creation of the item: 
+Incoherent data, skipping the creation of graphical Items.
+----------
+
+#### Feedback Report Ends ####
+
+[15:46:32] Done
